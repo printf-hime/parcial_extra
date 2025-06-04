@@ -1,0 +1,16 @@
+public class Bicicleta {
+    private int velocidade;
+    private int marcha;
+
+    // Construtor
+    public Bicicleta() {
+        this.velocidade = 0;
+        this.marcha = 0;
+    }
+
+    // Método para acelerar
+    public void acelerar(int incremento) {
+        if (incremento > 0) {
+            this.velocidade += incremento;
+        }
+    }
