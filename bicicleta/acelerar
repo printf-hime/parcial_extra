@@ -1,3 +1,6 @@
 public void acelerar (){
-    veloc
+    velocidade +=5;
+    if (marcha<5){
+    marcha ++;
+    }
 }
