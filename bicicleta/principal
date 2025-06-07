@@ -8,10 +8,4 @@ public class Bicicleta {
         this.marcha = 0;
     }
 
-    // Método para acelerar
-    public void acelerar(int incremento) {
-        if (incremento > 0) {
-            this.velocidade += incremento;
-        }
-    }
-    // 
+   
