@@ -5,3 +5,11 @@ public void frear (){
         velocidade= 0;
     }
 }
+velocidade = 0;
+        {
+        if (velocidade == 0) {
+            marcha = 0; // Se parar completamente, volta para marcha 0
+        } else if (marcha > 1) {
+            marcha--; // Reduz a marcha se não parar completamente
+        }
+    }
