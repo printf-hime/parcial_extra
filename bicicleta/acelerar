@@ -1,6 +1,7 @@
+
 public void acelerar (){
-    velocidade +=5;
-    if (marcha<5){
-    marcha ++;
+
+    this.velocidade = 0;
+    ajustarMarcha();
+    
     }
-}
