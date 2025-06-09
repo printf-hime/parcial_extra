@@ -1,15 +1,15 @@
-public class Principal {
-    public static void main(String[] args) {
-        Leao leao = new Leao();
-        Peixe peixe = new Peixe();
+public class Locadora {
+    public static void main(String[] args){
+        Carro carro = new Carro("Corolla", 2022);
+        Moto moto = new Moto ("Honda CG", 2021);
+        BicicletaEletrica bike = new BicicletaEletrica("Sense Easy", 2023);
 
-        System.out.println("Comportamento do Leão: ");
-        leao.emitirSom();
-        leao.alimentar();
+        carro.alugar();
+        carro.abastecer();
 
-        System.out.println("Comportamento do Peixe: ");
-        peixe.emitirSom();
-        peixe.alimentar();
-        peixe.nadar();
+        moto.alugar();
+        moto.abastecer();
+
+        bike.alugar();
     }
 }
