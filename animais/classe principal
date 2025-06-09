@@ -2,3 +2,6 @@ public abstract class Animal {
     public abstract void emitirSom();
     public abstract void alimentar();
 }
+public interface Aquatico {
+    void nadar();
+}
