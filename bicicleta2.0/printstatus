@@ -1,0 +1,22 @@
+ {
+ 
+ public void imprimirEstados(){
+        System.out.println("Velocidade: " + this.velocidade + " km/h | Marcha: " + this.marcha + " | Velocidade Máxima: " + this.velocidadeMaxima + " km/h");
+    }
+}
+
+public class Bprincipal {
+    public static void main(String[] args){
+        Bicicleta2 bike = new Bicicleta2(12);
+
+        for (int i = 0; i < 15; i++){
+            bike.acelerar();
+            bike.imprimirEstados();
+        }
+
+        for (int i=0; i< 5; i++){
+            bike.frear();
+            bike.imprimirEstados();
+        }
+    }
+}
