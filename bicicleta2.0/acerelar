@@ -1,0 +1,8 @@
+ public void acelerar() {
+        if (this.velocidade < this.velocidadeMaxima) {
+            this.velocidade++;
+            ajustarMarcha();
+        } else {
+            System.out.println("A velocidade máxima foi atingida! (" + this.velocidadeMaxima + " km/h)");
+        }
+    }
