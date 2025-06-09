@@ -1,0 +1,10 @@
+public class Bicicleta2.0 {
+    private int velocidade;
+    private int marcha;
+    private int velocidadeMaxima;
+}
+ public Bicicleta2 (int velocidadeMaxima){
+        this.velocidade = 0;
+        this.marcha = 0;
+        this.velocidadeMaxima = velocidadeMaxima;
+    }
