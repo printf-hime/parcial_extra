@@ -1,3 +1,20 @@
   public void imprimirEstados() {
         System.out.println("Velocidade: " + this.velocidade + " km/h | Marcha: " + this.marcha);
     }
+    public class Principal {
+    public static void main(String[] args) {
+        Bicicleta bike = new Bicicleta();
+
+        bike.imprimirEstados();
+
+        for (int i = 0; i < 7; i++) {
+            bike.acelerar();
+            bike.imprimirEstados();
+        }
+
+        for (int i = 0; i < 4; i++) {
+            bike.frear();
+            bike.imprimirEstados();
+        }
+    }
+}
