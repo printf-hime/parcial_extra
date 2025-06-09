@@ -1,0 +1,15 @@
+public class BicicletaEletrica extends Veiculo {
+    public BicicletaEletrica(String modelo, int ano) {
+        super(modelo, ano);
+    }
+}
+public class Carro extends Veiculo implements Motorizado {
+    public Carro(String modelo, int ano){
+        super(modelo,ano);
+    }
+    
+    @Override
+    public void abastecer(){
+        System.out.println("Carro "+ modelo +" está sendo abastecido.");
+    }
+}
